@@ -191,7 +191,7 @@ import { DiscoveryChannelComponent } from './premium/discovery-channel/discovery
       { path: 'nasa-iss-earthview', component: NasaIssEarthviewComponent },
       { path: 'nasa-media', component: NasaMediaComponent },
 
-      { path: '/premium/discovery-channel', component: DiscoveryChannelComponent },
+      { path: 'premium/discovery-channel', component: DiscoveryChannelComponent },
 
       { path: 'entertainment-tv-stations', component: EntertainmentTvStationsComponent },
       { path: 'world-tv-movies', component: WorldTvMoviesComponent },

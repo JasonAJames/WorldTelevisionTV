@@ -464,7 +464,7 @@ AppModule = __decorate([
                 { path: 'nasa-iss', component: __WEBPACK_IMPORTED_MODULE_34__stations_main_nasa_iis_nasa_iis_component__["a" /* NasaIisComponent */] },
                 { path: 'nasa-iss-earthview', component: __WEBPACK_IMPORTED_MODULE_35__stations_main_nasa_iss_earthview_nasa_iss_earthview_component__["a" /* NasaIssEarthviewComponent */] },
                 { path: 'nasa-media', component: __WEBPACK_IMPORTED_MODULE_36__stations_main_nasa_media_nasa_media_component__["a" /* NasaMediaComponent */] },
-                { path: '/premium/discovery-channel', component: __WEBPACK_IMPORTED_MODULE_85__premium_discovery_channel_discovery_channel_component__["a" /* DiscoveryChannelComponent */] },
+                { path: 'premium/discovery-channel', component: __WEBPACK_IMPORTED_MODULE_85__premium_discovery_channel_discovery_channel_component__["a" /* DiscoveryChannelComponent */] },
                 { path: 'entertainment-tv-stations', component: __WEBPACK_IMPORTED_MODULE_40__entertainment_tv_stations_entertainment_tv_stations_component__["a" /* EntertainmentTvStationsComponent */] },
                 { path: 'world-tv-movies', component: __WEBPACK_IMPORTED_MODULE_39__world_tv_movies_world_tv_movies_component__["a" /* WorldTvMoviesComponent */] },
                 { path: 'drone-tv', component: __WEBPACK_IMPORTED_MODULE_47__entertainment_tv_stations_drone_tv_drone_tv_component__["a" /* DroneTvComponent */] },
