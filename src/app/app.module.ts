@@ -85,6 +85,7 @@ import { CopyrightAbusePolicyComponent } from './copyright-abuse-policy/copyrigh
 import { FloridaComponent } from './stations-main/florida/florida.component';
 import { WsbTv2Component } from './stations-main/florida/wsb-tv2/wsb-tv2.component';
 import { Fox13TampaComponent } from './stations-main/florida/fox13-tampa/fox13-tampa.component';
+import { DiscoveryChannelComponent } from './premium/discovery-channel/discovery-channel.component';
 
 @NgModule({
   declarations: [
@@ -166,7 +167,8 @@ import { Fox13TampaComponent } from './stations-main/florida/fox13-tampa/fox13-t
     CopyrightAbusePolicyComponent,
     FloridaComponent,
     WsbTv2Component,
-    Fox13TampaComponent
+    Fox13TampaComponent,
+    DiscoveryChannelComponent
 
   ],
   imports: [
@@ -188,6 +190,8 @@ import { Fox13TampaComponent } from './stations-main/florida/fox13-tampa/fox13-t
       { path: 'nasa-iss', component: NasaIisComponent },
       { path: 'nasa-iss-earthview', component: NasaIssEarthviewComponent },
       { path: 'nasa-media', component: NasaMediaComponent },
+
+      { path: '/premium/discovery-channel', component: DiscoveryChannelComponent },
 
       { path: 'entertainment-tv-stations', component: EntertainmentTvStationsComponent },
       { path: 'world-tv-movies', component: WorldTvMoviesComponent },
