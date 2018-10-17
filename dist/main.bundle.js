@@ -64,7 +64,7 @@ AboutComponent = __decorate([
     __metadata("design:paramtypes", [])
 ], AboutComponent);
 
-//# sourceMappingURL=/Users/jasonjames/heroku/worldtelevision/src/about.component.js.map
+//# sourceMappingURL=/Users/jasonjames/heroku/WorldTelevisionTV-master/WorldTelevisionTV/src/about.component.js.map
 
 /***/ }),
 
@@ -114,7 +114,7 @@ AdvertiseCommercialComponent = __decorate([
     __metadata("design:paramtypes", [])
 ], AdvertiseCommercialComponent);
 
-//# sourceMappingURL=/Users/jasonjames/heroku/worldtelevision/src/advertise-commercial.component.js.map
+//# sourceMappingURL=/Users/jasonjames/heroku/WorldTelevisionTV-master/WorldTelevisionTV/src/advertise-commercial.component.js.map
 
 /***/ }),
 
@@ -169,7 +169,7 @@ AppComponent = __decorate([
     })
 ], AppComponent);
 
-//# sourceMappingURL=/Users/jasonjames/heroku/worldtelevision/src/app.component.js.map
+//# sourceMappingURL=/Users/jasonjames/heroku/WorldTelevisionTV-master/WorldTelevisionTV/src/app.component.js.map
 
 /***/ }),
 
@@ -263,12 +263,14 @@ AppComponent = __decorate([
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_82__stations_main_florida_florida_component__ = __webpack_require__("./src/app/stations-main/florida/florida.component.ts");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_83__stations_main_florida_wsb_tv2_wsb_tv2_component__ = __webpack_require__("./src/app/stations-main/florida/wsb-tv2/wsb-tv2.component.ts");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_84__stations_main_florida_fox13_tampa_fox13_tampa_component__ = __webpack_require__("./src/app/stations-main/florida/fox13-tampa/fox13-tampa.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_85__premium_discovery_channel_discovery_channel_component__ = __webpack_require__("./src/app/premium/discovery-channel/discovery-channel.component.ts");
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
+
 
 
 
@@ -440,7 +442,8 @@ AppModule = __decorate([
             __WEBPACK_IMPORTED_MODULE_81__copyright_abuse_policy_copyright_abuse_policy_component__["a" /* CopyrightAbusePolicyComponent */],
             __WEBPACK_IMPORTED_MODULE_82__stations_main_florida_florida_component__["a" /* FloridaComponent */],
             __WEBPACK_IMPORTED_MODULE_83__stations_main_florida_wsb_tv2_wsb_tv2_component__["a" /* WsbTv2Component */],
-            __WEBPACK_IMPORTED_MODULE_84__stations_main_florida_fox13_tampa_fox13_tampa_component__["a" /* Fox13TampaComponent */]
+            __WEBPACK_IMPORTED_MODULE_84__stations_main_florida_fox13_tampa_fox13_tampa_component__["a" /* Fox13TampaComponent */],
+            __WEBPACK_IMPORTED_MODULE_85__premium_discovery_channel_discovery_channel_component__["a" /* DiscoveryChannelComponent */]
         ],
         imports: [
             __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__["a" /* BrowserModule */],
@@ -461,6 +464,7 @@ AppModule = __decorate([
                 { path: 'nasa-iss', component: __WEBPACK_IMPORTED_MODULE_34__stations_main_nasa_iis_nasa_iis_component__["a" /* NasaIisComponent */] },
                 { path: 'nasa-iss-earthview', component: __WEBPACK_IMPORTED_MODULE_35__stations_main_nasa_iss_earthview_nasa_iss_earthview_component__["a" /* NasaIssEarthviewComponent */] },
                 { path: 'nasa-media', component: __WEBPACK_IMPORTED_MODULE_36__stations_main_nasa_media_nasa_media_component__["a" /* NasaMediaComponent */] },
+                { path: '/premium/discovery-channel', component: __WEBPACK_IMPORTED_MODULE_85__premium_discovery_channel_discovery_channel_component__["a" /* DiscoveryChannelComponent */] },
                 { path: 'entertainment-tv-stations', component: __WEBPACK_IMPORTED_MODULE_40__entertainment_tv_stations_entertainment_tv_stations_component__["a" /* EntertainmentTvStationsComponent */] },
                 { path: 'world-tv-movies', component: __WEBPACK_IMPORTED_MODULE_39__world_tv_movies_world_tv_movies_component__["a" /* WorldTvMoviesComponent */] },
                 { path: 'drone-tv', component: __WEBPACK_IMPORTED_MODULE_47__entertainment_tv_stations_drone_tv_drone_tv_component__["a" /* DroneTvComponent */] },
@@ -533,7 +537,7 @@ AppModule = __decorate([
     })
 ], AppModule);
 
-//# sourceMappingURL=/Users/jasonjames/heroku/worldtelevision/src/app.module.js.map
+//# sourceMappingURL=/Users/jasonjames/heroku/WorldTelevisionTV-master/WorldTelevisionTV/src/app.module.js.map
 
 /***/ }),
 
@@ -574,7 +578,7 @@ var router = [
     { path: '**', component: __WEBPACK_IMPORTED_MODULE_4__stations_main_worldtelevision_home_component__["a" /* HomeComponent */] }
 ];
 var routes = __WEBPACK_IMPORTED_MODULE_0__angular_router__["b" /* RouterModule */].forRoot(router, { useHash: true });
-//# sourceMappingURL=/Users/jasonjames/heroku/worldtelevision/src/app.router.js.map
+//# sourceMappingURL=/Users/jasonjames/heroku/WorldTelevisionTV-master/WorldTelevisionTV/src/app.router.js.map
 
 /***/ }),
 
@@ -732,7 +736,7 @@ BreakingNews1Component = __decorate([
     __metadata("design:paramtypes", [])
 ], BreakingNews1Component);
 
-//# sourceMappingURL=/Users/jasonjames/heroku/worldtelevision/src/breaking-news-1.component.js.map
+//# sourceMappingURL=/Users/jasonjames/heroku/WorldTelevisionTV-master/WorldTelevisionTV/src/breaking-news-1.component.js.map
 
 /***/ }),
 
@@ -784,7 +788,7 @@ ComedyClassicsComponent = __decorate([
     __metadata("design:paramtypes", [])
 ], ComedyClassicsComponent);
 
-//# sourceMappingURL=/Users/jasonjames/heroku/worldtelevision/src/comedy-classics.component.js.map
+//# sourceMappingURL=/Users/jasonjames/heroku/WorldTelevisionTV-master/WorldTelevisionTV/src/comedy-classics.component.js.map
 
 /***/ }),
 
@@ -835,7 +839,7 @@ ComedyTvStationsComponent = __decorate([
     __metadata("design:paramtypes", [])
 ], ComedyTvStationsComponent);
 
-//# sourceMappingURL=/Users/jasonjames/heroku/worldtelevision/src/comedy-tv-stations.component.js.map
+//# sourceMappingURL=/Users/jasonjames/heroku/WorldTelevisionTV-master/WorldTelevisionTV/src/comedy-tv-stations.component.js.map
 
 /***/ }),
 
@@ -887,7 +891,7 @@ ComicZooComponent = __decorate([
     __metadata("design:paramtypes", [])
 ], ComicZooComponent);
 
-//# sourceMappingURL=/Users/jasonjames/heroku/worldtelevision/src/comic-zoo.component.js.map
+//# sourceMappingURL=/Users/jasonjames/heroku/WorldTelevisionTV-master/WorldTelevisionTV/src/comic-zoo.component.js.map
 
 /***/ }),
 
@@ -939,7 +943,7 @@ EyeForAnEyeComponent = __decorate([
     __metadata("design:paramtypes", [])
 ], EyeForAnEyeComponent);
 
-//# sourceMappingURL=/Users/jasonjames/heroku/worldtelevision/src/eye-for-an-eye.component.js.map
+//# sourceMappingURL=/Users/jasonjames/heroku/WorldTelevisionTV-master/WorldTelevisionTV/src/eye-for-an-eye.component.js.map
 
 /***/ }),
 
@@ -991,7 +995,7 @@ ThePlaceholdersComponent = __decorate([
     __metadata("design:paramtypes", [])
 ], ThePlaceholdersComponent);
 
-//# sourceMappingURL=/Users/jasonjames/heroku/worldtelevision/src/the-placeholders.component.js.map
+//# sourceMappingURL=/Users/jasonjames/heroku/WorldTelevisionTV-master/WorldTelevisionTV/src/the-placeholders.component.js.map
 
 /***/ }),
 
@@ -1042,7 +1046,7 @@ ContactusComponent = __decorate([
     __metadata("design:paramtypes", [])
 ], ContactusComponent);
 
-//# sourceMappingURL=/Users/jasonjames/heroku/worldtelevision/src/contactus.component.js.map
+//# sourceMappingURL=/Users/jasonjames/heroku/WorldTelevisionTV-master/WorldTelevisionTV/src/contactus.component.js.map
 
 /***/ }),
 
@@ -1092,7 +1096,7 @@ CopyrightAbusePolicyComponent = __decorate([
     __metadata("design:paramtypes", [])
 ], CopyrightAbusePolicyComponent);
 
-//# sourceMappingURL=/Users/jasonjames/heroku/worldtelevision/src/copyright-abuse-policy.component.js.map
+//# sourceMappingURL=/Users/jasonjames/heroku/WorldTelevisionTV-master/WorldTelevisionTV/src/copyright-abuse-policy.component.js.map
 
 /***/ }),
 
@@ -1144,7 +1148,7 @@ DroneTvComponent = __decorate([
     __metadata("design:paramtypes", [])
 ], DroneTvComponent);
 
-//# sourceMappingURL=/Users/jasonjames/heroku/worldtelevision/src/drone-tv.component.js.map
+//# sourceMappingURL=/Users/jasonjames/heroku/WorldTelevisionTV-master/WorldTelevisionTV/src/drone-tv.component.js.map
 
 /***/ }),
 
@@ -1195,7 +1199,7 @@ EntertainmentTvStationsComponent = __decorate([
     __metadata("design:paramtypes", [])
 ], EntertainmentTvStationsComponent);
 
-//# sourceMappingURL=/Users/jasonjames/heroku/worldtelevision/src/entertainment-tv-stations.component.js.map
+//# sourceMappingURL=/Users/jasonjames/heroku/WorldTelevisionTV-master/WorldTelevisionTV/src/entertainment-tv-stations.component.js.map
 
 /***/ }),
 
@@ -1247,7 +1251,7 @@ HollywoodShowLiveComponent = __decorate([
     __metadata("design:paramtypes", [])
 ], HollywoodShowLiveComponent);
 
-//# sourceMappingURL=/Users/jasonjames/heroku/worldtelevision/src/hollywood-show-live.component.js.map
+//# sourceMappingURL=/Users/jasonjames/heroku/WorldTelevisionTV-master/WorldTelevisionTV/src/hollywood-show-live.component.js.map
 
 /***/ }),
 
@@ -1299,7 +1303,7 @@ MissMultiverseComponent = __decorate([
     __metadata("design:paramtypes", [])
 ], MissMultiverseComponent);
 
-//# sourceMappingURL=/Users/jasonjames/heroku/worldtelevision/src/miss-multiverse.component.js.map
+//# sourceMappingURL=/Users/jasonjames/heroku/WorldTelevisionTV-master/WorldTelevisionTV/src/miss-multiverse.component.js.map
 
 /***/ }),
 
@@ -1351,7 +1355,7 @@ NoahPopTvComponent = __decorate([
     __metadata("design:paramtypes", [])
 ], NoahPopTvComponent);
 
-//# sourceMappingURL=/Users/jasonjames/heroku/worldtelevision/src/noah-pop-tv.component.js.map
+//# sourceMappingURL=/Users/jasonjames/heroku/WorldTelevisionTV-master/WorldTelevisionTV/src/noah-pop-tv.component.js.map
 
 /***/ }),
 
@@ -1403,7 +1407,7 @@ OnTheMikeComponent = __decorate([
     __metadata("design:paramtypes", [])
 ], OnTheMikeComponent);
 
-//# sourceMappingURL=/Users/jasonjames/heroku/worldtelevision/src/on-the-mike.component.js.map
+//# sourceMappingURL=/Users/jasonjames/heroku/WorldTelevisionTV-master/WorldTelevisionTV/src/on-the-mike.component.js.map
 
 /***/ }),
 
@@ -1455,7 +1459,7 @@ TheDirectorsCutComponent = __decorate([
     __metadata("design:paramtypes", [])
 ], TheDirectorsCutComponent);
 
-//# sourceMappingURL=/Users/jasonjames/heroku/worldtelevision/src/the-directors-cut.component.js.map
+//# sourceMappingURL=/Users/jasonjames/heroku/WorldTelevisionTV-master/WorldTelevisionTV/src/the-directors-cut.component.js.map
 
 /***/ }),
 
@@ -1507,7 +1511,7 @@ TheRazziesChannelComponent = __decorate([
     __metadata("design:paramtypes", [])
 ], TheRazziesChannelComponent);
 
-//# sourceMappingURL=/Users/jasonjames/heroku/worldtelevision/src/the-razzies-channel.component.js.map
+//# sourceMappingURL=/Users/jasonjames/heroku/WorldTelevisionTV-master/WorldTelevisionTV/src/the-razzies-channel.component.js.map
 
 /***/ }),
 
@@ -1559,7 +1563,7 @@ TheRomanceComponent = __decorate([
     __metadata("design:paramtypes", [])
 ], TheRomanceComponent);
 
-//# sourceMappingURL=/Users/jasonjames/heroku/worldtelevision/src/the-romance.component.js.map
+//# sourceMappingURL=/Users/jasonjames/heroku/WorldTelevisionTV-master/WorldTelevisionTV/src/the-romance.component.js.map
 
 /***/ }),
 
@@ -1611,7 +1615,7 @@ TomorrowPicturesComponent = __decorate([
     __metadata("design:paramtypes", [])
 ], TomorrowPicturesComponent);
 
-//# sourceMappingURL=/Users/jasonjames/heroku/worldtelevision/src/tomorrow-pictures.component.js.map
+//# sourceMappingURL=/Users/jasonjames/heroku/WorldTelevisionTV-master/WorldTelevisionTV/src/tomorrow-pictures.component.js.map
 
 /***/ }),
 
@@ -1662,7 +1666,7 @@ FranceComponent = __decorate([
     __metadata("design:paramtypes", [])
 ], FranceComponent);
 
-//# sourceMappingURL=/Users/jasonjames/heroku/worldtelevision/src/france.component.js.map
+//# sourceMappingURL=/Users/jasonjames/heroku/WorldTelevisionTV-master/WorldTelevisionTV/src/france.component.js.map
 
 /***/ }),
 
@@ -1714,7 +1718,7 @@ France2Component = __decorate([
     __metadata("design:paramtypes", [])
 ], France2Component);
 
-//# sourceMappingURL=/Users/jasonjames/heroku/worldtelevision/src/france2.component.js.map
+//# sourceMappingURL=/Users/jasonjames/heroku/WorldTelevisionTV-master/WorldTelevisionTV/src/france2.component.js.map
 
 /***/ }),
 
@@ -1766,7 +1770,7 @@ France24liveComponent = __decorate([
     __metadata("design:paramtypes", [])
 ], France24liveComponent);
 
-//# sourceMappingURL=/Users/jasonjames/heroku/worldtelevision/src/france24live.component.js.map
+//# sourceMappingURL=/Users/jasonjames/heroku/WorldTelevisionTV-master/WorldTelevisionTV/src/france24live.component.js.map
 
 /***/ }),
 
@@ -1818,7 +1822,7 @@ Tf1Component = __decorate([
     __metadata("design:paramtypes", [])
 ], Tf1Component);
 
-//# sourceMappingURL=/Users/jasonjames/heroku/worldtelevision/src/tf1.component.js.map
+//# sourceMappingURL=/Users/jasonjames/heroku/WorldTelevisionTV-master/WorldTelevisionTV/src/tf1.component.js.map
 
 /***/ }),
 
@@ -1870,7 +1874,7 @@ LiveRoyalWedding2018Component = __decorate([
     __metadata("design:paramtypes", [])
 ], LiveRoyalWedding2018Component);
 
-//# sourceMappingURL=/Users/jasonjames/heroku/worldtelevision/src/live-royal-wedding-2018.component.js.map
+//# sourceMappingURL=/Users/jasonjames/heroku/WorldTelevisionTV-master/WorldTelevisionTV/src/live-royal-wedding-2018.component.js.map
 
 /***/ }),
 
@@ -1920,7 +1924,7 @@ Cam10fwyWestOfMonteVistaAveComponent = __decorate([
     __metadata("design:paramtypes", [])
 ], Cam10fwyWestOfMonteVistaAveComponent);
 
-//# sourceMappingURL=/Users/jasonjames/heroku/worldtelevision/src/cam-10fwy-west-of-monte-vista-ave.component.js.map
+//# sourceMappingURL=/Users/jasonjames/heroku/WorldTelevisionTV-master/WorldTelevisionTV/src/cam-10fwy-west-of-monte-vista-ave.component.js.map
 
 /***/ }),
 
@@ -1970,7 +1974,7 @@ LiveTrafficCamsComponent = __decorate([
     __metadata("design:paramtypes", [])
 ], LiveTrafficCamsComponent);
 
-//# sourceMappingURL=/Users/jasonjames/heroku/worldtelevision/src/live-traffic-cams.component.js.map
+//# sourceMappingURL=/Users/jasonjames/heroku/WorldTelevisionTV-master/WorldTelevisionTV/src/live-traffic-cams.component.js.map
 
 /***/ }),
 
@@ -2022,7 +2026,58 @@ LocalReviewsComponent = __decorate([
     __metadata("design:paramtypes", [])
 ], LocalReviewsComponent);
 
-//# sourceMappingURL=/Users/jasonjames/heroku/worldtelevision/src/local-reviews.component.js.map
+//# sourceMappingURL=/Users/jasonjames/heroku/WorldTelevisionTV-master/WorldTelevisionTV/src/local-reviews.component.js.map
+
+/***/ }),
+
+/***/ "./src/app/premium/discovery-channel/discovery-channel.component.css":
+/***/ (function(module, exports) {
+
+module.exports = ".top {\n    padding-top: 8%;\n}\n\n@media screen and (min-width: 400px) {\n    .videoContainer {\n        margin-left: 1%;\n        padding-right: 2%;\n    }\n    .video {\n        border: none;\n        width: 420px;\n        height: 237px;\n        border-radius: 25px;\n        -webkit-box-shadow:1px 1px 45px lightgray;\n                box-shadow:1px 1px 45px lightgray;\n        margin-left: 5%;\n    }\n}\n\n@media screen and (min-width: 800px) {\n    #videoContainer {\n        padding-left: 15%;\n        padding-right: 2%;\n    \n    }\n    .video {\n        border: none;\n        width: 620px;\n        height: 350px;\n        border-radius: 25px;\n        -webkit-box-shadow:1px 1px 45px lightgray;\n                box-shadow:1px 1px 45px lightgray;\n        margin-left: 25%;\n    }\n}\n\n#videoContainer {\n    padding-left: 25%;\n\n}\n\n"
+
+/***/ }),
+
+/***/ "./src/app/premium/discovery-channel/discovery-channel.component.html":
+/***/ (function(module, exports) {
+
+module.exports = "<!-- Global site tag (gtag.js) - Google Analytics -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-92954301-6\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'UA-92954301-8');\n</script>\n\n<p class=\"top\"></p>\n\n<!-- Revive Adserver iFrame Tag - Generated with Revive Adserver v4.1.3 -->\n<iframe id='a1db2c5d' name='a1db2c5d' src='https://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/afr.php?zoneid=1&amp;cb=INSERT_RANDOM_NUMBER_HERE' frameborder='0' scrolling='no' width='768' height='90'><a href='https://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/ck.php?n=a99a811b&amp;cb=INSERT_RANDOM_NUMBER_HERE' target='_blank'><img src='https://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/avw.php?zoneid=1&amp;cb=INSERT_RANDOM_NUMBER_HERE&amp;n=a99a811b' border='0' alt='' class='img-responsive' /></a></iframe>\n<!-- Weather Component -->\n<div style=\"width: 768px;\" class=\"img-responsive\"><iframe style=\"display: block;\" src=\"https://cdnres.willyweather.com/widget/loadView.html?id=87679\" width=\"768\" height=\"92\" frameborder=\"0\" scrolling=\"no\"></iframe><a style=\"float: right;position: relative;z-index: 1;height: 92px;width: 20px;margin: -92px 0 0 0;text-indent: -9999em\" href=\"https://www.willyweather.com/ca/riverside-county/corona.html\" rel=\"nofollow\"></a></div>\n<!-- END Weather Component -->\n  <h3>You're Watching</h3>\n  <h1>{{stationName}}</h1>\n  <span class=\"embed-responsive embed-responsive-16by9\"><iframe \n    src=\"https://www.firstonetv.net/embed/2969343d882be678b150197a70fd248f/us-37\" \n    width=\"800\" height=\"600\" style=\"border:none;overflow:hidden\" scrolling=\"no\" frameborder=\"0\" \n    allowTransparency=\"true\" allowFullScreen=\"true\">\n  </iframe></span>"
+
+/***/ }),
+
+/***/ "./src/app/premium/discovery-channel/discovery-channel.component.ts":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return DiscoveryChannelComponent; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("./node_modules/@angular/core/index.js");
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var DiscoveryChannelComponent = (function () {
+    function DiscoveryChannelComponent() {
+        this.stationName = "Discovery Channel";
+    }
+    DiscoveryChannelComponent.prototype.ngOnInit = function () {
+    };
+    return DiscoveryChannelComponent;
+}());
+DiscoveryChannelComponent = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["v" /* Component */])({
+        selector: 'app-discovery-channel',
+        template: __webpack_require__("./src/app/premium/discovery-channel/discovery-channel.component.html"),
+        styles: [__webpack_require__("./src/app/premium/discovery-channel/discovery-channel.component.css")]
+    }),
+    __metadata("design:paramtypes", [])
+], DiscoveryChannelComponent);
+
+//# sourceMappingURL=/Users/jasonjames/heroku/WorldTelevisionTV-master/WorldTelevisionTV/src/discovery-channel.component.js.map
 
 /***/ }),
 
@@ -2075,7 +2130,7 @@ ArizonaComponent = __decorate([
     __metadata("design:paramtypes", [])
 ], ArizonaComponent);
 
-//# sourceMappingURL=/Users/jasonjames/heroku/worldtelevision/src/arizona.component.js.map
+//# sourceMappingURL=/Users/jasonjames/heroku/WorldTelevisionTV-master/WorldTelevisionTV/src/arizona.component.js.map
 
 /***/ }),
 
@@ -2126,7 +2181,7 @@ Fox10phoenixComponent = __decorate([
     __metadata("design:paramtypes", [])
 ], Fox10phoenixComponent);
 
-//# sourceMappingURL=/Users/jasonjames/heroku/worldtelevision/src/fox10phoenix.component.js.map
+//# sourceMappingURL=/Users/jasonjames/heroku/WorldTelevisionTV-master/WorldTelevisionTV/src/fox10phoenix.component.js.map
 
 /***/ }),
 
@@ -2177,7 +2232,7 @@ Abc30BakersfieldComponent = __decorate([
     __metadata("design:paramtypes", [])
 ], Abc30BakersfieldComponent);
 
-//# sourceMappingURL=/Users/jasonjames/heroku/worldtelevision/src/abc30-bakersfield.component.js.map
+//# sourceMappingURL=/Users/jasonjames/heroku/WorldTelevisionTV-master/WorldTelevisionTV/src/abc30-bakersfield.component.js.map
 
 /***/ }),
 
@@ -2228,7 +2283,7 @@ BakersfieldNews23abcComponent = __decorate([
     __metadata("design:paramtypes", [])
 ], BakersfieldNews23abcComponent);
 
-//# sourceMappingURL=/Users/jasonjames/heroku/worldtelevision/src/bakersfield-news-23abc.component.js.map
+//# sourceMappingURL=/Users/jasonjames/heroku/WorldTelevisionTV-master/WorldTelevisionTV/src/bakersfield-news-23abc.component.js.map
 
 /***/ }),
 
@@ -2280,7 +2335,7 @@ CaliforniaLifeComponent = __decorate([
     __metadata("design:paramtypes", [])
 ], CaliforniaLifeComponent);
 
-//# sourceMappingURL=/Users/jasonjames/heroku/worldtelevision/src/california-life.component.js.map
+//# sourceMappingURL=/Users/jasonjames/heroku/WorldTelevisionTV-master/WorldTelevisionTV/src/california-life.component.js.map
 
 /***/ }),
 
@@ -2331,7 +2386,7 @@ CaliforniaComponent = __decorate([
     __metadata("design:paramtypes", [])
 ], CaliforniaComponent);
 
-//# sourceMappingURL=/Users/jasonjames/heroku/worldtelevision/src/california.component.js.map
+//# sourceMappingURL=/Users/jasonjames/heroku/WorldTelevisionTV-master/WorldTelevisionTV/src/california.component.js.map
 
 /***/ }),
 
@@ -2382,7 +2437,7 @@ Fox11laComponent = __decorate([
     __metadata("design:paramtypes", [])
 ], Fox11laComponent);
 
-//# sourceMappingURL=/Users/jasonjames/heroku/worldtelevision/src/fox11la.component.js.map
+//# sourceMappingURL=/Users/jasonjames/heroku/WorldTelevisionTV-master/WorldTelevisionTV/src/fox11la.component.js.map
 
 /***/ }),
 
@@ -2433,7 +2488,7 @@ Fox5sandiegoComponent = __decorate([
     __metadata("design:paramtypes", [])
 ], Fox5sandiegoComponent);
 
-//# sourceMappingURL=/Users/jasonjames/heroku/worldtelevision/src/fox5sandiego.component.js.map
+//# sourceMappingURL=/Users/jasonjames/heroku/WorldTelevisionTV-master/WorldTelevisionTV/src/fox5sandiego.component.js.map
 
 /***/ }),
 
@@ -2484,7 +2539,7 @@ Kron4Component = __decorate([
     __metadata("design:paramtypes", [])
 ], Kron4Component);
 
-//# sourceMappingURL=/Users/jasonjames/heroku/worldtelevision/src/kron4.component.js.map
+//# sourceMappingURL=/Users/jasonjames/heroku/WorldTelevisionTV-master/WorldTelevisionTV/src/kron4.component.js.map
 
 /***/ }),
 
@@ -2535,7 +2590,7 @@ Ktla5Component = __decorate([
     __metadata("design:paramtypes", [])
 ], Ktla5Component);
 
-//# sourceMappingURL=/Users/jasonjames/heroku/worldtelevision/src/ktla5.component.js.map
+//# sourceMappingURL=/Users/jasonjames/heroku/WorldTelevisionTV-master/WorldTelevisionTV/src/ktla5.component.js.map
 
 /***/ }),
 
@@ -2588,7 +2643,7 @@ Colorado9newsComponent = __decorate([
     __metadata("design:paramtypes", [])
 ], Colorado9newsComponent);
 
-//# sourceMappingURL=/Users/jasonjames/heroku/worldtelevision/src/colorado-9news.component.js.map
+//# sourceMappingURL=/Users/jasonjames/heroku/WorldTelevisionTV-master/WorldTelevisionTV/src/colorado-9news.component.js.map
 
 /***/ }),
 
@@ -2643,7 +2698,7 @@ ColoradoComponent = __decorate([
     __metadata("design:paramtypes", [])
 ], ColoradoComponent);
 
-//# sourceMappingURL=/Users/jasonjames/heroku/worldtelevision/src/colorado.component.js.map
+//# sourceMappingURL=/Users/jasonjames/heroku/WorldTelevisionTV-master/WorldTelevisionTV/src/colorado.component.js.map
 
 /***/ }),
 
@@ -2696,7 +2751,7 @@ Nbc11newsComponent = __decorate([
     __metadata("design:paramtypes", [])
 ], Nbc11newsComponent);
 
-//# sourceMappingURL=/Users/jasonjames/heroku/worldtelevision/src/nbc11news.component.js.map
+//# sourceMappingURL=/Users/jasonjames/heroku/WorldTelevisionTV-master/WorldTelevisionTV/src/nbc11news.component.js.map
 
 /***/ }),
 
@@ -2747,7 +2802,7 @@ FloridaComponent = __decorate([
     __metadata("design:paramtypes", [])
 ], FloridaComponent);
 
-//# sourceMappingURL=/Users/jasonjames/heroku/worldtelevision/src/florida.component.js.map
+//# sourceMappingURL=/Users/jasonjames/heroku/WorldTelevisionTV-master/WorldTelevisionTV/src/florida.component.js.map
 
 /***/ }),
 
@@ -2798,7 +2853,7 @@ Fox13TampaComponent = __decorate([
     __metadata("design:paramtypes", [])
 ], Fox13TampaComponent);
 
-//# sourceMappingURL=/Users/jasonjames/heroku/worldtelevision/src/fox13-tampa.component.js.map
+//# sourceMappingURL=/Users/jasonjames/heroku/WorldTelevisionTV-master/WorldTelevisionTV/src/fox13-tampa.component.js.map
 
 /***/ }),
 
@@ -2849,7 +2904,7 @@ WsbTv2Component = __decorate([
     __metadata("design:paramtypes", [])
 ], WsbTv2Component);
 
-//# sourceMappingURL=/Users/jasonjames/heroku/worldtelevision/src/wsb-tv2.component.js.map
+//# sourceMappingURL=/Users/jasonjames/heroku/WorldTelevisionTV-master/WorldTelevisionTV/src/wsb-tv2.component.js.map
 
 /***/ }),
 
@@ -2900,7 +2955,7 @@ GeorgiaComponent = __decorate([
     __metadata("design:paramtypes", [])
 ], GeorgiaComponent);
 
-//# sourceMappingURL=/Users/jasonjames/heroku/worldtelevision/src/georgia.component.js.map
+//# sourceMappingURL=/Users/jasonjames/heroku/WorldTelevisionTV-master/WorldTelevisionTV/src/georgia.component.js.map
 
 /***/ }),
 
@@ -2951,7 +3006,7 @@ Wsb2AtlantaComponent = __decorate([
     __metadata("design:paramtypes", [])
 ], Wsb2AtlantaComponent);
 
-//# sourceMappingURL=/Users/jasonjames/heroku/worldtelevision/src/wsb-2-atlanta.component.js.map
+//# sourceMappingURL=/Users/jasonjames/heroku/WorldTelevisionTV-master/WorldTelevisionTV/src/wsb-2-atlanta.component.js.map
 
 /***/ }),
 
@@ -3002,7 +3057,7 @@ HawaiiComponent = __decorate([
     __metadata("design:paramtypes", [])
 ], HawaiiComponent);
 
-//# sourceMappingURL=/Users/jasonjames/heroku/worldtelevision/src/hawaii.component.js.map
+//# sourceMappingURL=/Users/jasonjames/heroku/WorldTelevisionTV-master/WorldTelevisionTV/src/hawaii.component.js.map
 
 /***/ }),
 
@@ -3053,7 +3108,7 @@ HawaiiNewsNowComponent = __decorate([
     __metadata("design:paramtypes", [])
 ], HawaiiNewsNowComponent);
 
-//# sourceMappingURL=/Users/jasonjames/heroku/worldtelevision/src/hawaii-news-now.component.js.map
+//# sourceMappingURL=/Users/jasonjames/heroku/WorldTelevisionTV-master/WorldTelevisionTV/src/hawaii-news-now.component.js.map
 
 /***/ }),
 
@@ -3104,7 +3159,7 @@ Khon2hawaiiComponent = __decorate([
     __metadata("design:paramtypes", [])
 ], Khon2hawaiiComponent);
 
-//# sourceMappingURL=/Users/jasonjames/heroku/worldtelevision/src/khon2hawaii.component.js.map
+//# sourceMappingURL=/Users/jasonjames/heroku/WorldTelevisionTV-master/WorldTelevisionTV/src/khon2hawaii.component.js.map
 
 /***/ }),
 
@@ -3155,7 +3210,7 @@ Kitv4hawaiiComponent = __decorate([
     __metadata("design:paramtypes", [])
 ], Kitv4hawaiiComponent);
 
-//# sourceMappingURL=/Users/jasonjames/heroku/worldtelevision/src/kitv4hawaii.component.js.map
+//# sourceMappingURL=/Users/jasonjames/heroku/WorldTelevisionTV-master/WorldTelevisionTV/src/kitv4hawaii.component.js.map
 
 /***/ }),
 
@@ -3206,7 +3261,7 @@ Fox59IndianaComponent = __decorate([
     __metadata("design:paramtypes", [])
 ], Fox59IndianaComponent);
 
-//# sourceMappingURL=/Users/jasonjames/heroku/worldtelevision/src/fox-59-indiana.component.js.map
+//# sourceMappingURL=/Users/jasonjames/heroku/WorldTelevisionTV-master/WorldTelevisionTV/src/fox-59-indiana.component.js.map
 
 /***/ }),
 
@@ -3257,7 +3312,7 @@ IndianaComponent = __decorate([
     __metadata("design:paramtypes", [])
 ], IndianaComponent);
 
-//# sourceMappingURL=/Users/jasonjames/heroku/worldtelevision/src/indiana.component.js.map
+//# sourceMappingURL=/Users/jasonjames/heroku/WorldTelevisionTV-master/WorldTelevisionTV/src/indiana.component.js.map
 
 /***/ }),
 
@@ -3308,7 +3363,7 @@ Wishtv8IndianaComponent = __decorate([
     __metadata("design:paramtypes", [])
 ], Wishtv8IndianaComponent);
 
-//# sourceMappingURL=/Users/jasonjames/heroku/worldtelevision/src/wishtv-8-indiana.component.js.map
+//# sourceMappingURL=/Users/jasonjames/heroku/WorldTelevisionTV-master/WorldTelevisionTV/src/wishtv-8-indiana.component.js.map
 
 /***/ }),
 
@@ -3359,7 +3414,7 @@ Wthr13IndianaComponent = __decorate([
     __metadata("design:paramtypes", [])
 ], Wthr13IndianaComponent);
 
-//# sourceMappingURL=/Users/jasonjames/heroku/worldtelevision/src/wthr-13-indiana.component.js.map
+//# sourceMappingURL=/Users/jasonjames/heroku/WorldTelevisionTV-master/WorldTelevisionTV/src/wthr-13-indiana.component.js.map
 
 /***/ }),
 
@@ -3411,7 +3466,7 @@ LiveHighSpeedPursuitFeedComponent = __decorate([
     __metadata("design:paramtypes", [])
 ], LiveHighSpeedPursuitFeedComponent);
 
-//# sourceMappingURL=/Users/jasonjames/heroku/worldtelevision/src/live-high-speed-pursuit-feed.component.js.map
+//# sourceMappingURL=/Users/jasonjames/heroku/WorldTelevisionTV-master/WorldTelevisionTV/src/live-high-speed-pursuit-feed.component.js.map
 
 /***/ }),
 
@@ -3464,7 +3519,7 @@ LiveComponent = __decorate([
     __metadata("design:paramtypes", [])
 ], LiveComponent);
 
-//# sourceMappingURL=/Users/jasonjames/heroku/worldtelevision/src/live.component.js.map
+//# sourceMappingURL=/Users/jasonjames/heroku/WorldTelevisionTV-master/WorldTelevisionTV/src/live.component.js.map
 
 /***/ }),
 
@@ -3515,7 +3570,7 @@ Boston25NewsComponent = __decorate([
     __metadata("design:paramtypes", [])
 ], Boston25NewsComponent);
 
-//# sourceMappingURL=/Users/jasonjames/heroku/worldtelevision/src/boston-25-news.component.js.map
+//# sourceMappingURL=/Users/jasonjames/heroku/WorldTelevisionTV-master/WorldTelevisionTV/src/boston-25-news.component.js.map
 
 /***/ }),
 
@@ -3566,7 +3621,7 @@ MassachusettsComponent = __decorate([
     __metadata("design:paramtypes", [])
 ], MassachusettsComponent);
 
-//# sourceMappingURL=/Users/jasonjames/heroku/worldtelevision/src/massachusetts.component.js.map
+//# sourceMappingURL=/Users/jasonjames/heroku/WorldTelevisionTV-master/WorldTelevisionTV/src/massachusetts.component.js.map
 
 /***/ }),
 
@@ -3617,7 +3672,7 @@ NasaIisComponent = __decorate([
     __metadata("design:paramtypes", [])
 ], NasaIisComponent);
 
-//# sourceMappingURL=/Users/jasonjames/heroku/worldtelevision/src/nasa-iis.component.js.map
+//# sourceMappingURL=/Users/jasonjames/heroku/WorldTelevisionTV-master/WorldTelevisionTV/src/nasa-iis.component.js.map
 
 /***/ }),
 
@@ -3668,7 +3723,7 @@ NasaIssEarthviewComponent = __decorate([
     __metadata("design:paramtypes", [])
 ], NasaIssEarthviewComponent);
 
-//# sourceMappingURL=/Users/jasonjames/heroku/worldtelevision/src/nasa-iss-earthview.component.js.map
+//# sourceMappingURL=/Users/jasonjames/heroku/WorldTelevisionTV-master/WorldTelevisionTV/src/nasa-iss-earthview.component.js.map
 
 /***/ }),
 
@@ -3719,7 +3774,7 @@ NasaMediaComponent = __decorate([
     __metadata("design:paramtypes", [])
 ], NasaMediaComponent);
 
-//# sourceMappingURL=/Users/jasonjames/heroku/worldtelevision/src/nasa-media.component.js.map
+//# sourceMappingURL=/Users/jasonjames/heroku/WorldTelevisionTV-master/WorldTelevisionTV/src/nasa-media.component.js.map
 
 /***/ }),
 
@@ -3770,7 +3825,7 @@ NasaPublicComponent = __decorate([
     __metadata("design:paramtypes", [])
 ], NasaPublicComponent);
 
-//# sourceMappingURL=/Users/jasonjames/heroku/worldtelevision/src/nasa-public.component.js.map
+//# sourceMappingURL=/Users/jasonjames/heroku/WorldTelevisionTV-master/WorldTelevisionTV/src/nasa-public.component.js.map
 
 /***/ }),
 
@@ -3821,7 +3876,7 @@ NorthCarolinaComponent = __decorate([
     __metadata("design:paramtypes", [])
 ], NorthCarolinaComponent);
 
-//# sourceMappingURL=/Users/jasonjames/heroku/worldtelevision/src/north-carolina.component.js.map
+//# sourceMappingURL=/Users/jasonjames/heroku/WorldTelevisionTV-master/WorldTelevisionTV/src/north-carolina.component.js.map
 
 /***/ }),
 
@@ -3872,7 +3927,7 @@ Wbtw13Component = __decorate([
     __metadata("design:paramtypes", [])
 ], Wbtw13Component);
 
-//# sourceMappingURL=/Users/jasonjames/heroku/worldtelevision/src/wbtw13.component.js.map
+//# sourceMappingURL=/Users/jasonjames/heroku/WorldTelevisionTV-master/WorldTelevisionTV/src/wbtw13.component.js.map
 
 /***/ }),
 
@@ -3923,7 +3978,7 @@ Wsoc9Component = __decorate([
     __metadata("design:paramtypes", [])
 ], Wsoc9Component);
 
-//# sourceMappingURL=/Users/jasonjames/heroku/worldtelevision/src/wsoc9.component.js.map
+//# sourceMappingURL=/Users/jasonjames/heroku/WorldTelevisionTV-master/WorldTelevisionTV/src/wsoc9.component.js.map
 
 /***/ }),
 
@@ -3975,7 +4030,7 @@ News4OklahomaComponent = __decorate([
     __metadata("design:paramtypes", [])
 ], News4OklahomaComponent);
 
-//# sourceMappingURL=/Users/jasonjames/heroku/worldtelevision/src/news4-oklahoma.component.js.map
+//# sourceMappingURL=/Users/jasonjames/heroku/WorldTelevisionTV-master/WorldTelevisionTV/src/news4-oklahoma.component.js.map
 
 /***/ }),
 
@@ -4026,7 +4081,7 @@ OklahomaComponent = __decorate([
     __metadata("design:paramtypes", [])
 ], OklahomaComponent);
 
-//# sourceMappingURL=/Users/jasonjames/heroku/worldtelevision/src/oklahoma.component.js.map
+//# sourceMappingURL=/Users/jasonjames/heroku/WorldTelevisionTV-master/WorldTelevisionTV/src/oklahoma.component.js.map
 
 /***/ }),
 
@@ -4081,7 +4136,7 @@ StationsMainComponent = __decorate([
     __metadata("design:paramtypes", [])
 ], StationsMainComponent);
 
-//# sourceMappingURL=/Users/jasonjames/heroku/worldtelevision/src/stations-main.component.js.map
+//# sourceMappingURL=/Users/jasonjames/heroku/WorldTelevisionTV-master/WorldTelevisionTV/src/stations-main.component.js.map
 
 /***/ }),
 
@@ -4131,7 +4186,7 @@ Fox10TennesseeComponent = __decorate([
     __metadata("design:paramtypes", [])
 ], Fox10TennesseeComponent);
 
-//# sourceMappingURL=/Users/jasonjames/heroku/worldtelevision/src/fox10-tennessee.component.js.map
+//# sourceMappingURL=/Users/jasonjames/heroku/WorldTelevisionTV-master/WorldTelevisionTV/src/fox10-tennessee.component.js.map
 
 /***/ }),
 
@@ -4182,7 +4237,7 @@ TennesseeComponent = __decorate([
     __metadata("design:paramtypes", [])
 ], TennesseeComponent);
 
-//# sourceMappingURL=/Users/jasonjames/heroku/worldtelevision/src/tennessee.component.js.map
+//# sourceMappingURL=/Users/jasonjames/heroku/WorldTelevisionTV-master/WorldTelevisionTV/src/tennessee.component.js.map
 
 /***/ }),
 
@@ -4233,7 +4288,7 @@ Fox4TexasComponent = __decorate([
     __metadata("design:paramtypes", [])
 ], Fox4TexasComponent);
 
-//# sourceMappingURL=/Users/jasonjames/heroku/worldtelevision/src/fox-4-texas.component.js.map
+//# sourceMappingURL=/Users/jasonjames/heroku/WorldTelevisionTV-master/WorldTelevisionTV/src/fox-4-texas.component.js.map
 
 /***/ }),
 
@@ -4284,7 +4339,7 @@ Fox7AustinComponent = __decorate([
     __metadata("design:paramtypes", [])
 ], Fox7AustinComponent);
 
-//# sourceMappingURL=/Users/jasonjames/heroku/worldtelevision/src/fox-7-austin.component.js.map
+//# sourceMappingURL=/Users/jasonjames/heroku/WorldTelevisionTV-master/WorldTelevisionTV/src/fox-7-austin.component.js.map
 
 /***/ }),
 
@@ -4336,7 +4391,7 @@ Khou11TexasComponent = __decorate([
     __metadata("design:paramtypes", [])
 ], Khou11TexasComponent);
 
-//# sourceMappingURL=/Users/jasonjames/heroku/worldtelevision/src/khou-11-texas.component.js.map
+//# sourceMappingURL=/Users/jasonjames/heroku/WorldTelevisionTV-master/WorldTelevisionTV/src/khou-11-texas.component.js.map
 
 /***/ }),
 
@@ -4388,7 +4443,7 @@ Kwtx10Component = __decorate([
     __metadata("design:paramtypes", [])
 ], Kwtx10Component);
 
-//# sourceMappingURL=/Users/jasonjames/heroku/worldtelevision/src/kwtx-10.component.js.map
+//# sourceMappingURL=/Users/jasonjames/heroku/WorldTelevisionTV-master/WorldTelevisionTV/src/kwtx-10.component.js.map
 
 /***/ }),
 
@@ -4439,7 +4494,7 @@ TexasComponent = __decorate([
     __metadata("design:paramtypes", [])
 ], TexasComponent);
 
-//# sourceMappingURL=/Users/jasonjames/heroku/worldtelevision/src/texas.component.js.map
+//# sourceMappingURL=/Users/jasonjames/heroku/WorldTelevisionTV-master/WorldTelevisionTV/src/texas.component.js.map
 
 /***/ }),
 
@@ -4497,7 +4552,7 @@ HomeComponent = __decorate([
 ], HomeComponent);
 
 var _a;
-//# sourceMappingURL=/Users/jasonjames/heroku/worldtelevision/src/home.component.js.map
+//# sourceMappingURL=/Users/jasonjames/heroku/WorldTelevisionTV-master/WorldTelevisionTV/src/home.component.js.map
 
 /***/ }),
 
@@ -4551,7 +4606,7 @@ VolcanoLiveComponent = __decorate([
     __metadata("design:paramtypes", [])
 ], VolcanoLiveComponent);
 
-//# sourceMappingURL=/Users/jasonjames/heroku/worldtelevision/src/volcano-live.component.js.map
+//# sourceMappingURL=/Users/jasonjames/heroku/WorldTelevisionTV-master/WorldTelevisionTV/src/volcano-live.component.js.map
 
 /***/ }),
 
@@ -4602,7 +4657,7 @@ WorldTvMoviesComponent = __decorate([
     __metadata("design:paramtypes", [])
 ], WorldTvMoviesComponent);
 
-//# sourceMappingURL=/Users/jasonjames/heroku/worldtelevision/src/world-tv-movies.component.js.map
+//# sourceMappingURL=/Users/jasonjames/heroku/WorldTelevisionTV-master/WorldTelevisionTV/src/world-tv-movies.component.js.map
 
 /***/ }),
 
@@ -4619,7 +4674,7 @@ WorldTvMoviesComponent = __decorate([
 var environment = {
     production: false
 };
-//# sourceMappingURL=/Users/jasonjames/heroku/worldtelevision/src/environment.js.map
+//# sourceMappingURL=/Users/jasonjames/heroku/WorldTelevisionTV-master/WorldTelevisionTV/src/environment.js.map
 
 /***/ }),
 
@@ -4640,7 +4695,7 @@ if (__WEBPACK_IMPORTED_MODULE_2__environments_environment__["a" /* environment *
     Object(__WEBPACK_IMPORTED_MODULE_1__angular_core__["_28" /* enableProdMode */])();
 }
 Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* platformBrowserDynamic */])().bootstrapModule(__WEBPACK_IMPORTED_MODULE_3__app_app_module__["a" /* AppModule */]);
-//# sourceMappingURL=/Users/jasonjames/heroku/worldtelevision/src/main.js.map
+//# sourceMappingURL=/Users/jasonjames/heroku/WorldTelevisionTV-master/WorldTelevisionTV/src/main.js.map
 
 /***/ }),
 
